@@ -1,0 +1,995 @@
+
+@media (min-width:576px){
+    .container,.container-sm{
+        max-width:540px
+    }
+}
+@media (min-width:768px){
+    .container,.container-md,.container-sm{
+        max-width:720px
+    }
+}
+@media (min-width:992px){
+    .container,.container-lg,.container-md,.container-sm{
+        max-width:960px
+    }
+}
+@media (min-width:1200px){
+    .container,.container-lg,.container-md,.container-sm,.container-xl{
+        max-width:1140px
+    }
+}
+@media (min-width:1400px){
+    .container,.container-lg,.container-md,.container-sm,.container-xl,.container-xxl{
+        max-width:1320px
+    }
+}
+
+@media(max-width:1366px){
+    nav.navbar .nav-item .nav-link{
+        padding: 15px 13px;
+    }
+    .csd-box{
+        flex:0 0 160px;
+        height: 160px;
+    }
+    .csd-box .st h4{
+        font-size: 17px;
+    }
+
+    .gs-box_ .img-box{
+        width: 19vw;
+        height: 19vw;
+    }
+    .test-img-box{
+        width: 346px;
+        height: 346px;
+    }
+    .circle-box-4{
+        width: 360px;
+        height: 360px;
+    }
+    .circle-img2{
+        width: 350px;
+        height: 350px;
+    }
+    .r-box .img-box{
+        height: 256px;
+    }
+    .rp-box .img-box{
+        height: 290px;
+    }
+}
+
+@media(max-width:1200px){
+    .lis-box{
+        height: 454px;
+    }
+    .gs-box_ .img-box{
+        width: 18vw;
+        height: 18vw;
+    }
+    .test-img-box{
+        width: 280px;
+        height: 280px;
+    }
+}
+@media(max-width:1024px){
+    body.body h2 {
+        font-size: 38px;
+        line-height:38px;
+    }
+    
+    body.body h3{
+        font-size: 24.71px;
+    }
+
+    body.body h4{
+        font-size: 20.65px;
+    }
+
+    body.body h5{
+        font-size: 18.04px;
+    }
+
+    
+    body.body .container-fluid{
+        padding: 0px 2rem;
+    }
+    nav.navbar .nav-item .nav-link{
+        font-size: 12px;
+        padding: 15px 12px;;
+    
+    }
+    .benefit-section {
+        padding-top: 40px;
+        padding-bottom: 0px;
+    }
+    .lis-box{
+        height: 444px;
+    }
+    .leveraging-innovative-section{
+        padding-bottom: 50px;
+    }
+    .timeline .owl-theme .owl-nav .owl-prev{
+        
+        margin-left: 10px;
+       
+    }
+    .timeline .owl-theme .owl-nav .owl-next{
+      
+        margin-right: 10px;
+       
+    }
+    .about-content-section{
+        padding-bottom: 20px;
+    }
+    .renewable-energy-section{
+        padding-bottom: 50px;
+    }
+    .milestone-section{
+        background-size: 250px;
+    }
+    .milestone-section.expansion-projects-section5{
+        background-size: 250px, 100px;
+    }
+    .our-stakeholders-section{
+        background-size: 350px, 100px;
+    }
+    .about-content-section, .renewable-energy-section{
+        background-size:100px, 50px;
+        background-position: left 0, right 0;
+    }
+    .alimg{
+        min-height: 470px;
+    }
+    .history-content-section, .stakeholders-section-f{
+        background-size:50px, 50px, 50px;
+        background-position: left 20px, right 20px, right 70%;
+        padding-top: 100px;
+        padding-bottom: 20px;
+    }
+
+    
+     .note-container{
+        width: 960px;
+        transform: scale(0.8);
+
+     }
+     .boardmembers-section{
+        background-size: 44vw;
+     }
+     .mbb .right-img-box{
+        width: 40%;
+     }
+     .member-box .img-box{
+        height: 300px;
+     }
+     .bankers-section{
+        background-size: 20vw;
+     }
+     .kenana-foods-section{
+        padding-top: 170px;
+     }
+     .dropdown-item{
+        font-size: 12px;
+        padding: 5px 12px;
+    }
+    .pppimf-box{
+        width: 150px;
+        height: 150px;
+    }
+    .kaf-box .img-box{
+        height: 240px;
+    }
+    .kaf-box h3{
+        font-size: 21px;
+     }
+     .rst .nav-pills .nav-link{
+        font-size: 16px;
+        padding: 18px 0;
+     }
+
+     .rd-section, .kem-section1, .investments-section1, .expansion-projects-section1{
+        background-size:50px, 50px, 50px;
+     }
+     .rd-orderlist li, .rd-orderlist li ol li{
+        font-size: 14px;
+     }
+     .rd-orderlist-wrapper{
+        padding: 20px 10px;
+    }
+    .project-carousel {
+        margin-bottom: -90px;
+    }
+    .pc-nav{
+        margin-top: 10px;
+    }
+    .growth-strategy-section{
+        padding-top: 140px;
+        padding-bottom: 50px;
+    }
+    .ep-box .over-content{
+        width: 60%;
+    }
+    .expansion-projects-section2:after{
+        width: 38px;
+    }
+    .expansion-projects-section2{
+        padding-top: 250px;
+    }
+    .epr-img{
+        margin-bottom: -20px;
+    }
+    .test-img-box{
+        width: 290px;
+        height: 290px;
+    }
+    .benefit-section.expansion-projects-section3{
+        padding-bottom: 30px;
+    }
+    .gf-projects-section1{
+        padding-top: 30px;
+    }
+
+    .sust-section2, .sust-section3, .gallery-section2{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .gs-box_ .img-box{
+        width: 21vw;
+        height: 21vw;
+    }
+    .sust-section1{
+        background-size: 100px;
+    }
+
+    .video-box3 a .vplay{
+        width: 100px;
+        height: 100px;
+    }
+    .video-box3 a:hover .vplay{
+        width: 120px;
+        height: 120px;
+    }
+    .media-section1, .our-stakeholders-section.decorbg, .media-section2{
+        background-size: 35vw, 11vw;
+
+    }
+    .media-box.pub .img-box{
+        height: 340px;
+    }
+    .training-section, .strategy-section, .opening-section{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .energies-content-section1{
+        background-size:50px, 50px;
+        background-position: left 20px right bottom;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    .bioethanol-section, .biogas-section, .biocompost-section{
+
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .why-bioethanol-box:after{
+        width: 184px;
+    }
+    .circle{
+        width: 140px;
+        height: 140px;
+    }
+    .expansion-projects-section3{
+        padding-bottom: 0;
+    }
+
+    .milestone-section.expansion-projects-section5{
+        padding-top: 100px;
+    }
+    .milestone-section.expansion-projects-section5 {
+        background-position: right top, left 26%;
+    }
+    .testimonial-section{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .sust-section4{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .sust-section5, .pp-section, .byproduct-section{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .env-section1, .env-section2, .env-section3, .env-section4, .gallery-section3, .ksc-training-centre-section, .kenana-foods-section2, .animal-feed-section, .oa-section{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .circle-box-4{
+        width: 300px;
+        height: 300px;
+    }
+    .hr-value-box .img-box{
+        width: 286px;
+        height: 286px;
+    }
+    .circle-img2{
+        width: 290px;
+        height: 290px;
+    }
+    .business-content-section{
+        padding-bottom:50px;
+    }
+    .sp-box .img-box{
+        height: 194px;
+    }
+
+    .poultry-section, .dairy-section, .ourrange-section, .rp-section{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .meat-section{
+        padding-top: 50px;
+    }
+    .r-box .img-box{
+        height: 210px;
+    }
+    .rp-box .img-box{
+        height: 240px;
+    }
+
+}
+
+@media(max-width:991px){
+    body.body h2 {
+        font-size: 38px;
+        line-height:38px;
+    }
+    
+    body.body h3{
+        font-size: 27.71px;
+    }
+
+    body.body h4{
+        font-size: 20.65px;
+    }
+
+    body.body h5{
+        font-size: 18.04px;
+    }
+    .navbar-toggler{
+        position: absolute;
+        right:0;
+        top: -57px;
+        padding: 0;
+    }
+    .navbar{
+        width: 100%;
+    }
+    .country-dd{
+        position: absolute;
+        right: 56px;
+        top: -57px;
+    }
+    nav.navbar .navbar-collapse{
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background-color: $light-color;
+    }
+    .ops-right-img{
+        position: relative;
+    }
+    nav.navbar .nav-item .nav-link {
+        font-size: 13px;
+        padding: 6px 12px;
+    }
+    .our-stakeholders-section{
+        background-size:300px, 50px;
+    }
+    .milestone-section{
+        background-size: 220px;
+    }
+    .milestone-section.expansion-projects-section5{
+        background-size: 220px, 100px;
+    }
+    .kf-img{
+        width: 270px;
+        height: 270px;
+    }
+    .img-box-cms2, .img-box-cms3{
+        width: 100%;
+    }
+    .alimg{
+        margin-right: 0;
+        min-height: 450px;
+    }
+    .about-content-section{
+        background-position: left 20px, right 20px;
+        background-size: 100px, 50px;
+    }
+    .timeline .owl-theme .owl-nav .owl-prev{
+        width: 40px;
+        height: 40px;
+        margin-left: 10px;
+        background-size: 6px;
+        &:hover{
+            background-size: 6px;
+        }
+    }
+    .timeline .owl-theme .owl-nav .owl-next{
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+        background-size: 6px;
+        &:hover{
+            background-size: 6px;
+        }
+    }
+    .timeline .owl-item .item{
+        height: 320px;
+    }
+    .timeline .owl-item .item .year-content{
+        height: 110px;
+    }
+    .renewable-energy-section, .about-content-section, .company-section, .our-stakeholders-section, .milestone-section, .milestone-section.expansion-projects-section5{
+        padding-top:30px;
+        padding-bottom: 30px;
+    }
+    .award .left, .award .right{
+        flex:0 0 100%;
+
+    }
+    .dropdown-item{
+        font-size: 12px;
+    }
+    .note-section{
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+    .note-container{
+        width: 100%;
+        height: auto;
+        display:flex;
+        flex-wrap: wrap;
+        transform: none;
+        justify-content: center;
+
+    }
+    .hexabox{
+        position: static;
+        flex:0 0 240px;
+        transform: none!important;
+        margin-bottom: 15px;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .hexaboxm, .hexaboxs{
+        display: none;
+    }
+    .video-box a span, .video-box a .vplay{
+        width: 96px;
+        height: 96px;
+    }
+    .video-box a:hover span, .video-box a:hover .vplay{
+        width: 116px;
+        height: 116px;
+    }
+    .kenana-foods-section{
+        padding-top: 150px;
+        padding-bottom: 30px;
+    }
+    .history-content-section, .stakeholders-section-f{
+        padding-top: 40px;
+    }
+
+    .bio-products-section{
+        background-size:100px, 250px;
+    }
+    .research-section, .equipment-machinery-section{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .kenana-animal-feed-section{
+        padding-top: 30px;
+    }
+    .rst{
+        padding: 15px;
+    }
+
+    body.body .rst h4{
+        font-size: 16.65px;
+    }
+    .rst .nav-pills .nav-link {
+        font-size: 14px;
+        padding: 15px 0;
+    }
+    .kenana-sugar-section:after{
+        background-size: 40vw;
+    }
+    .rd-section, .kem-section1, .kem-section2, .investments-section1{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .ins-projects-section{
+        padding-top: 30px;
+    }
+    .gs-box .caption{
+        padding: 15px;
+    }
+    .growth-strategy-section {
+        padding-top: 240px;
+        padding-bottom: 30px;
+    }
+    .test-img-box{
+        width: 210px;
+        height: 210px;
+    }
+
+    .video-box{
+        .over-cont{
+            width: 90%;
+            &+a{
+                img{
+                    height: 590px;
+                }
+            }
+        }
+    }
+
+    .gs-box_ .img-box{
+        width:33vw;
+        height:33vw;
+    }
+    .video-box3 a .vplay{
+        width: 60px;
+        height: 60px;
+    }
+    .video-box3 a:hover .vplay{
+        width: 80px;
+        height: 80px;
+    }
+    .sust-section1{
+        padding-top: 40px;
+    }
+    .media-publication-section{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .media-section1, .our-stakeholders-section.decorbg{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .c-steps li{
+
+        flex:0 0 184px;
+        width: 184px;
+    }
+    .c-steps li .icon{
+        width: 184px;
+        height: 184px;
+    }
+    .training-carousel.gallery-cnav .owl-carousel .owl-nav button.owl-prev{
+        left: -30px;
+    }
+    .training-carousel.gallery-cnav .owl-carousel .owl-nav button.owl-next{
+        right: -30px;
+    }
+    .join-section{
+        padding-top: 50px;
+    }
+    .rb{
+        border-right:0;
+    }
+    .contact-form-box{
+        padding-top:50px;
+        padding-bottom:0px;
+    }
+    .address-box{
+        padding-top:50px;
+        padding-bottom: 50px;
+        margin-top: 0px;
+
+    }
+    .testimonial-section{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .video-box4 .over-cont{
+        width: 80%;
+    }
+    .video-box4 .over-cont span img{
+        width: 86px;
+        height: 86px;
+    }
+    .circle-box-4{
+        width: 260px;
+        height: 260px;
+    }
+
+    .circle-img2{
+        width: 210px;
+        height: 210px;
+    }
+    .lj .over-content{
+        bottom: 30px;
+    }
+    .business-content-section.bg2{
+        background-size: 80px, 70px;
+    }
+    
+}
+
+
+
+@media(max-width:767px){
+    body.body h2, .home-banner .banner-caption h1 {
+        font-size: 39px;
+        line-height: 40px;
+    }
+    body.body .container-fluid{
+        padding: 0 1rem;
+    }
+    .home-banner .banner-caption p {
+        font-size: 22.65px;
+    }
+    
+    .alimg{
+        min-height: 460px;
+        margin-right: 0;
+    }
+    .renewable-energy-section, .about-content-section, .company-section, .our-stakeholders-section, .milestone-section, .award-section, .milestone-section.expansion-projects-section5{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .img-box-cms, .img-box-cms2, .img-box-cms3{
+        width: 100%;
+        &:before{
+            display: none;
+        }
+    }
+
+    .our-stakeholders-section, .milestone-section, .milestone-section.expansion-projects-section5{
+        background-image: none;
+     }
+     .timeline{
+        padding-top: 0;
+     }
+     .ppp .ppp-inner {
+        padding: 20px 20px;
+    }
+    .kaf-bottom{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .ppp{margin-bottom: 30px;}
+
+    .rst:before{
+        transform: rotate(-90deg);
+        top:97%;
+        left:50px;
+    }
+    .tab-content.hpstabs .tab-pane, .tab-content.hpstabs .tab-pane .rlbox{
+        height: 300px;
+    }
+    .kenana-sugar-section{
+        padding-bottom: 20px;
+    }
+    .kaf-bottom{
+        margin-top: 0;
+    }
+    .project-carousel {
+        margin-bottom: 30px;
+    }
+    .pc-nav{
+        margin-top: -60px;
+    }
+    .growth-strategy-section{
+        padding-top: 40px;
+    }
+    .ep-box .over-content, .ep-box .over-content2 {
+        width: 100%;
+        position: static;
+        padding: 15px;
+        background: $main-color;
+    }
+    .epr2-img{
+        margin-top: 0;
+    }
+    .expansion-projects-section4{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .test-img-box{
+        width: 290px;
+        height: 290px;
+        margin: auto;
+    }
+    .test-carousel .text:before, .test-carousel .text:after{
+        background-size: 30px;
+        width: 35px;
+        height: 30px;
+    }
+    .projects-details-section {
+        padding-top: 230px;
+        padding-bottom: 20px;
+    }
+    .gs-box_ .img-box{
+        width: 300px;
+        height: 300px;
+    }
+    .video-section3{
+        padding-top: 30px;
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+    }
+    .video-box3{
+        margin-bottom: 0;
+    }
+    .pl-cont li{
+        padding: 15px;
+    }
+    .pl-cont li .avator {
+        width: 60px;
+        height: 60px;
+        flex: 0 60px;
+    }
+    .pl-cont li .p-cont{
+        display: block;
+    }
+    .pl-cont li .p-cont .details{
+        margin-top: 15px;
+    }
+    .pl-cont li .avator{
+        margin-right: 10px;
+    }
+    .media-section1{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .ints{
+        padding: 30px 15px 150px 15px;
+    }
+
+    .video-box a .vplay{
+        width: 56px;
+        height: 56px;
+    }
+    .video-box a:hover .vplay{
+        width: 76px;
+        height: 76px;
+    }
+    .c-steps{
+        align-items: center;
+        flex-direction: column;
+        &:after{
+            display: none;
+        }
+    }
+    .c-steps li{
+         flex:0 0 200px;
+        width: 200px;
+        margin-bottom: 30px;
+    }
+    .c-steps li .icon{
+        width: 200px;
+        height: 200px;
+    }
+    .job-open-list li{
+        padding: 16px;
+    }
+    .job-open-list li .logo{
+        width: 60px;
+        height: 60px;
+        flex:0 0 60px;
+    }
+    .job-open-list li .p-cont{
+        display: block;
+    }
+    .job-open-list li .p-cont .p-text .psr{
+        display: block;
+    }
+    .job-open-list li .p-cont .p-text .psr .place{
+        display: block;
+        margin-bottom: 10px;
+    }
+    .training-section, .strategy-section, .opening-section{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .training-carousel.gallery-cnav .owl-carousel .owl-nav button.owl-prev{
+        left: 16px;
+    }
+    .training-carousel.gallery-cnav .owl-carousel .owl-nav button.owl-next{
+        right: 16px;
+    }
+    .circle-img{
+        width: 290px;
+        height: 290px;
+    }
+    .middle-line:before{
+        display: none;
+    }
+    .join-section{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .join-team{
+        padding: 16px;
+    }
+    .cms-content-section{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .contact-form-box{
+        padding-top:30px;
+        padding-bottom:0px;
+    }
+    .address-box{
+        padding-top:30px;
+        padding-bottom: 30px;
+        margin-top: 0px;
+        
+    }
+
+    .map{
+        height: 300px;
+        padding: 0;
+    }
+
+    .brd{
+        border-right:0;
+    }
+
+    .circle{
+        width: 100px;
+        height: 100px;
+    }
+    .outer-border-img{
+        width: 290px;
+        height: 290px;
+        margin:0 auto;
+        border:10px solid transparent;
+    }
+    .why-bioethanol-box{
+        padding-right: 30px;
+        padding-top: 130px;
+}
+
+.energies-content-section1 {
+    background-size: 50px, 50px;
+    background-position: left 20px, right bottom;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.video-box4 .over-cont+img{
+    height: 590px;
+}
+
+.sust-section4{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.sust-section5{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+    .middle-line{
+        position: relative;
+        .row{
+            .mlb{
+            &:nth-child(1){
+                border-right:0;
+            }
+            
+            &:nth-child(3){
+                border-right:0;
+                border-bottom:1px solid rgba($light-color, 0.1);
+            }
+            } 
+        }
+    }
+    .env-section1, .env-section2, .env-section3, .env-section4, .gallery-section3, .ksc-training-centre-section{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .media-section2{
+        padding-top: 70px;
+    }
+    .cms-g .row{
+        margin-bottom: 0;
+    }
+
+    .lj .over-content.text-white{
+        background-color: $second-color;
+        width: 100%;
+        max-width: 100%;
+        transform: translate(0);
+        position: static;
+        padding: 20px 15px;
+    }
+    .circle-img2{
+        width: 290px;
+        height: 290px;
+    }
+    .kenana-foods-section2, .byproduct-section, .business-content-section.bg2{
+        padding-bottom: 0;
+    }
+
+    .oa-section, .animal-feed-section{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .animal-feed-section{
+        .row{
+            margin-bottom: 20px;
+        }
+    }
+
+    .poultry-section, .dairy-section, .ourrange-section, .rp-section{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .meat-section{
+        padding-top: 40px;
+    }
+    
+}
+
+
+@media(max-width:480px){
+    .kf-img{
+        width: 300px;
+        height: 300px;
+        margin:auto
+    }
+    .award .left{
+        padding: 16px;
+    }
+    .integrated-policies-section .row{
+        flex-direction: column-reverse;
+    }
+    .leveraging-innovative-section{
+        background-size:100px, 50px;
+        padding-top: 100px;
+        padding-bottom: 20px;
+    }
+    .project-carousel .item .content{
+        padding: 15px 15px 50px 15px;
+    }
+    .sc-gallery{
+        width: 50%!important;
+        padding: 5px;
+    }
+    .filter-item{
+        padding: 5px;
+    }
+    .events-tabs.nav-tabs .nav-link{
+        width: 250px;
+        margin-bottom: 10px;
+    }
+    .form-wrapper, .ac-right-box{
+        margin: 30px 0;
+    }
+    .form-wrapper, .ac-right-box{
+        padding: 15px;
+
+    }
+    .ac-right-box .inner .top{
+        padding: 20px 15px;
+    }
+    .salary-list li:nth-child(2) span:before, .salary-list li:nth-child(2) span:after{
+        width: 100px;
+    }
+    .r-box .img-box, .rp-box .img-box{
+        height: auto;
+    }
+}

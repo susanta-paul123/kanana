@@ -1,0 +1,311 @@
+h2{
+    font-family: 'Abhaya Libre';
+    font-weight: 600;
+}
+
+.home-banner{
+    position: relative;
+    height:calc(100vh - 101px);
+    overflow: hidden;
+    .banner{
+        height: 100%;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .banner-caption{
+        width: 100%;
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        h1{
+            font-size: 45px;
+        }
+        p{
+            font-size: 20.65px;
+        }
+    }
+}
+
+.scroll-down{
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+    span{
+        display: block;
+        width: 66px;
+        height: 66px;
+        border:5px solid $light-color;
+        border-radius: 50%;
+        animation: bounch 2s infinite;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &:before{
+            content:"";
+            width: 0;
+            height: 0;
+            border-top:10px solid $light-color;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            display: block;
+        }
+    }
+}
+
+@keyframes bounch{
+    0% {top: 0px;}
+    25% {top: 5px;}
+    50% {top: 10px;}
+    75% {top: 5px;}
+    100% {top: 0px;}
+}
+
+.about-home-section{
+    position: relative;
+    padding-bottom: 200px;
+    .kl-left{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 44vw;
+        
+
+    }
+    .kl-right{
+        position: absolute;
+        top: 0;
+        right: 0; 
+        width: 20vw;
+        text-align: right;
+    }
+    .kan-left-top{
+        position: absolute;
+        top: 190px;
+        left: 0;
+        width: 18vw;
+    }
+
+
+    .kan-left-bot{
+        position: absolute;
+        bottom: 0px;
+        left: 0;
+        width: 27vw;
+    }
+    .kan-right{
+        position: absolute;
+        bottom: 0px;
+        right: 0;
+        width: 7vw;
+        text-align: right;
+
+    }
+}
+
+.ha-text-content{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    h4{
+        font-weight: 700;
+        color:$second-color;
+    }
+
+    p{
+        font-weight: 700;
+    }
+}
+
+.title{
+    color:$main-color;
+}
+.benefit-section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+.bnf-box{
+    .icon{
+        height: 80px;
+        width: 80px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15px;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+.our-passion-section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+    &:before{
+        content:"";
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba($second-color, 0.8);
+        position: absolute;
+    }
+}
+.ops-right-img{
+    position: absolute;
+    right: 0;
+    .ops-right-img-inner{
+        display: inline-block;
+        border-radius: 50% 0 0 50%;
+        overflow: hidden;
+    }
+}
+.btn{
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 0;
+    &.white{
+        color:$black;
+        background-color: $light-color;
+        &:hover{
+            background-color: $main-color;
+            color:$light-color;
+        }
+    }
+    &.second{
+        background-color: $second-color;
+        color:$light-color;
+        &:hover{
+            background-color: $main-color;
+        }
+    }
+}
+
+.leveraging-innovative-section{
+    position: relative;
+    padding-top: 200px;
+    padding-bottom: 50px;
+    // background: url("../media/images/left-bg1.png") no-repeat left top, url("../media/images/right-bg1.png") no-repeat right top;
+
+    background-repeat: no-repeat, no-repeat;
+    background-position: left top, right top;
+
+    .left-bg{
+        content:"";
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: block;
+    }
+    .right-bg{
+        content:"";
+        position: absolute;
+        right: 0;
+        top: 0;
+        display: block;
+    }
+}
+
+.lis-box{
+    height: 624px;
+    overflow: hidden;
+    .over-content{
+         position:absolute;
+         width: 100%;
+         bottom: 0;
+         left: 0;
+         padding: 30px;
+         z-index: 3;
+
+         h4{
+            color:$light-color; 
+         }
+
+         p{
+            height: 55px;
+            color:$light-color;
+            opacity: 0;
+         }
+    }
+    &:before{
+        content:"";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-color: rgba(#007C3D, 0.9);
+        transition:ease all 0.5s;
+        z-index: 1;
+        
+    }
+    &:after{
+        content:"";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 30%;
+        background: rgb(0,162,79);
+        background: linear-gradient(0deg, rgba(0,162,79,0.9500175070028011) 0%, rgba(0,162,79,0) 73%);
+        opacity:0;
+        transition:ease all 0.5s;
+        z-index: 2;
+    }
+
+    &:hover{
+        &:before{
+            opacity: 0;
+        }
+        &:after{
+            opacity: 1;
+        }
+        p{
+            opacity: 1;
+        }
+    }
+}
+.footer{
+    background-color: $main-color;
+    padding-top: 80px;
+    padding-bottom:60px;
+    h5{
+        color:$light-color;
+    }
+}
+.footer-links{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    li{
+        margin-bottom: 10px;
+        color:$light-color;
+        .icon{
+            display: inline-block;
+            margin-right: 5px;
+        }
+    }
+    a{
+        color:$light-color;
+        &:hover{
+            opacity: 0.7;
+        }
+    }
+}
+
+
+
+

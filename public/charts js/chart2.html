@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #chartdiv {
+        width: 400px;
+        height:400px;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div id="chartdiv"></div>
+
+    <script src="https://www.amcharts.com/lib/4/core.js"></script>
+    <script src="https://www.amcharts.com/lib/4/charts.js"></script>
+    <script src="https://www.amcharts.com/lib/4/themes/animated.js"></script>
+
+    <script>
+        /**
+ * ---------------------------------------
+ * This demo was created using amCharts 4.
+ * 
+ * For more information visit:
+ * https://www.amcharts.com/
+ * 
+ * Documentation is available at:
+ * https://www.amcharts.com/docs/v4/
+ * ---------------------------------------
+ */
+
+// Themes begin
+am4core.useTheme(am4themes_animated);
+// Themes end
+
+var chart = am4core.create("chartdiv", am4charts.PieChart3D);
+chart.hiddenState.properties.opacity = 0; 
+
+
+//chart.legend = new am4charts.Legend();
+
+chart.data = [
+  {
+    country: "Lithuania",
+    litres: 501.9,
+    stroke:"#000"
+  },
+  {
+    country: "Czech Republic",
+    litres: 301.9,
+    stroke:"#000"
+  },
+  {
+    country: "Ireland",
+    litres: 201.1,
+    stroke:"#000"
+  },
+  {
+    country: "Germany",
+    litres: 165.8,
+    stroke:"#000"
+  },
+  {
+    country: "Australia",
+    litres: 139.9,
+    stroke:"#000"
+  },
+  {
+    country: "Austria",
+    litres: 128.3,
+    stroke:"#000"
+  },
+  {
+    country: "UK",
+    litres: 99,
+    stroke:"#000"
+  },
+  {
+    country: "Belgium",
+    litres: 60,
+    stroke:"#000"
+  },
+  {
+    country: "The Netherlands",
+    litres: 50,
+    stroke:"#000"
+  }
+];
+
+var series = chart.series.push(new am4charts.PieSeries3D());
+series.dataFields.value = "litres";
+series.dataFields.category = "country";
+series.dataFields.alternativeBackground = "stroke";
+
+
+series.ticks.template.disabled = true;
+series.labels.template.disabled = true;
+    </script>
+</body>
+</html>
